@@ -1,0 +1,17 @@
+#Header{
+    background-color:rgb(68,68,68);
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    /* padding: 1vw; */
+    color: rgb(143,143,143);
+    align-items: center;
+}
+#Header img{
+width: 100%;
+
+}
+#Header img :hover{
+    color: white;
+}
