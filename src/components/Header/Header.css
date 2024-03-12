@@ -3,7 +3,7 @@
     list-style-type: none;
     display: flex;
     text-decoration: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* padding: 1vw; */
     color: rgb(143,143,143);
     align-items: center;
