@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header/Header'
 import macimg from '../assets/macimg.jpg'
 import imacimg from '../assets/imacimg.jpg'
+import ip15img from '../assets/ip15img.jpg'
 
 const Home = () => {
   return (
@@ -29,6 +30,18 @@ const Home = () => {
       </div>
 
     </div>
+    <div className='div5'>
+        <img src={ip15img} alt="" />
+        <div className='div6'>
+          <div id='div6a'>
+        <h1 id='w1'>iPhone15 Pro</h1>
+        <p id='w2'>Titanium. So strong. So light. So Pro.</p>
+          </div>
+        <nav>
+        <a href="Learn more">Learn more {'>'}</a>
+        </nav>
+      </div>
+      </div>
 
     </div>
   )
