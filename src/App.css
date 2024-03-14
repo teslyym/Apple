@@ -112,3 +112,99 @@ nav a{
     display: flex;
     gap: 30px;
 }
+
+.div7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 2vw;
+}
+.div7 img{
+    height: 60vh;
+}
+.div8{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+nav a{
+    display: flex;
+    text-decoration: none; 
+}
+.div8 a{
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 22px;
+    color: rgb(0, 102, 204);
+}
+#div8a{
+    color: black;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    /* gap: 30px; */
+}
+.div99{
+    position: relative;
+}
+
+.div7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 2vw;
+}
+.div7 img{
+    height: 48vh;
+}
+.div9{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav a{
+    display: flex;
+    text-decoration: none; 
+}
+.div9 a{
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 22px;
+    color: rgb(0, 102, 204);
+}
+#div9a{
+    color: black;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    /* gap: 30px; */
+}
+.div8{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}.div6b{
+    position: relative;
+}
