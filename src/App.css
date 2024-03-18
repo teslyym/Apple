@@ -122,9 +122,7 @@ nav a{
     position: relative;
     margin-top: 2vw;
 }
-.div7 img{
-    height: 60vh;
-}
+
 .div8{
     position: absolute;
     display: flex;
@@ -149,6 +147,7 @@ nav a{
     flex-direction: column;
     align-items: center;
     display: flex;
+    gap: 20px;
     /* gap: 30px; */
 }
 .div99{
@@ -165,7 +164,7 @@ nav a{
     margin-top: 2vw;
 }
 .div7 img{
-    height: 48vh;
+    height: 100%;
 }
 .div9{
     position: absolute;
@@ -194,6 +193,7 @@ nav a{
     flex-direction: column;
     align-items: center;
     display: flex;
+    gap: 20px;
     /* gap: 30px; */
 }
 .div8{
@@ -205,6 +205,39 @@ nav a{
     flex-direction: column;
     align-items: center;
    
-}.div6b{
+}
+.div6b,
+.div99
+{
     position: relative;
+    overflow: hidden;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+#div8aa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column1;
+ 
+}
+#div8aa h1, p{
+    color: black;
+}
+#div8aa img{
+    width: 10vw;
+}
+.Footer{
+    background-color: rgb(245,245,247);
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    margin-top: 2%;
+    list-style-type: none;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }

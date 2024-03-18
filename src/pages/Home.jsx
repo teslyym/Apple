@@ -5,6 +5,10 @@ import imacimg from "../assets/imacimg.jpg";
 import ip15img from "../assets/ip15img.jpg";
 import iph15img from "../assets/iph15img.jpg";
 import ipadimg from "../assets/ipadimg.jpg";
+import m2img from "../assets/M2.png";
+import Macstudio from "../assets/Macstudio.jpg";
+import Ipadpro from "../assets/Ipadpro.jpg";
+
 
 const Home = () => {
   return (
@@ -67,6 +71,56 @@ const Home = () => {
               <a href="Learn more">Learn more {">"}</a>
             </nav>
           </div>
+        </div>
+      </div>
+      <div className="div7">
+        <div className="div6b">
+          <img src={Ipadpro} alt="" />
+          <div className="div8">
+            <div id="div8aa">
+              <h1 id="w1">iPad Pro </h1>
+              <p id="w2">Supercharged by <img src={m2img} alt="" /></p> 
+            </div>
+            <nav>
+              <a href="Learn more">Learn more {">"}</a>
+            </nav>
+          </div>
+        </div>
+        <div className="div99">
+          <img src={Macstudio} alt="" />
+          <div className="div9">
+            <div id="div9a">
+              <h1 id="w1">Mac Studio</h1>
+              <p id="w2">Supercharged by M2 Max and M2 Ultra.</p>
+            </div>
+            <nav>
+              <a href="Learn more">Learn more {">"}</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div className="Footer">
+        <div>
+          <h1>Explore</h1>
+          <li>Mac</li>
+          <li>iPad</li>
+          <li>iPhone</li>
+        </div>
+        <div>
+          <h1>Account</h1>
+          <li>Manage Your Apple ID</li>
+        </div>
+        <div>
+          <h1>Apple Values</h1>
+          <li>Privacy</li>
+        </div>
+        <div>
+          <h1>About Apple</h1>
+          <li>Newsroom</li>
+          <li>Apple Leadership</li>
+          <li>Career Opportunities</li>
+          <li>Investors</li>
+          <li>Ethics and Compliance</li>
         </div>
       </div>
     </div>
